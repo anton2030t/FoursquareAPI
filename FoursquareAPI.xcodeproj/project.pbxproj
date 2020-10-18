@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		6C1C111C253C5A4A007C7133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C111B253C5A4A007C7133 /* AppDelegate.swift */; };
 		6C1C111E253C5A4A007C7133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C111D253C5A4A007C7133 /* SceneDelegate.swift */; };
-		6C1C1120253C5A4A007C7133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C111F253C5A4A007C7133 /* ViewController.swift */; };
 		6C1C1123253C5A4A007C7133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C1121253C5A4A007C7133 /* Main.storyboard */; };
 		6C1C1125253C5A4C007C7133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C1124253C5A4C007C7133 /* Assets.xcassets */; };
 		6C1C1128253C5A4C007C7133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C1126253C5A4C007C7133 /* LaunchScreen.storyboard */; };
+		6C1C1159253C5A73007C7133 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C113A253C5A72007C7133 /* Network.swift */; };
+		6C1C115A253C5A73007C7133 /* PlacesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C113C253C5A72007C7133 /* PlacesListViewController.swift */; };
+		6C1C115B253C5A73007C7133 /* PlacesListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C113D253C5A72007C7133 /* PlacesListRouter.swift */; };
+		6C1C115C253C5A73007C7133 /* PlacesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C113E253C5A72007C7133 /* PlacesListPresenter.swift */; };
+		6C1C115D253C5A73007C7133 /* PlacesListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C113F253C5A72007C7133 /* PlacesListEntity.swift */; };
+		6C1C115E253C5A73007C7133 /* PlacesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C1140253C5A72007C7133 /* PlacesListInteractor.swift */; };
+		6C1C115F253C5A73007C7133 /* PlacesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C1142253C5A72007C7133 /* PlacesListViewController.xib */; };
+		6C1C1160253C5A73007C7133 /* PlacesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C1144253C5A72007C7133 /* PlacesListCell.swift */; };
+		6C1C1161253C5A73007C7133 /* PlacesListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C1145253C5A72007C7133 /* PlacesListCell.xib */; };
+		6C1C1167253C5A73007C7133 /* PlacesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C114E253C5A73007C7133 /* PlacesProtocol.swift */; };
+		6C1C1168253C5A73007C7133 /* PlacesDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C114F253C5A73007C7133 /* PlacesDetailProtocol.swift */; };
+		6C1C1180253C5DCA007C7133 /* PlacesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C117A253C5DCA007C7133 /* PlacesDetailViewController.swift */; };
+		6C1C1181253C5DCA007C7133 /* PlacesDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C117B253C5DCA007C7133 /* PlacesDetailPresenter.swift */; };
+		6C1C1183253C5DCA007C7133 /* PlacesDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C117D253C5DCA007C7133 /* PlacesDetailRouter.swift */; };
+		6C1C1184253C5DCA007C7133 /* PlacesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1C117F253C5DCA007C7133 /* PlacesDetailViewController.xib */; };
+		6C1C1188253C5DDD007C7133 /* ProgressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C1187253C5DDD007C7133 /* ProgressManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C1C1118253C5A4A007C7133 /* FoursquareAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1C111B253C5A4A007C7133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C1C111D253C5A4A007C7133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C1C111F253C5A4A007C7133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C1C1122253C5A4A007C7133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C1C1124253C5A4C007C7133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C1C1127253C5A4C007C7133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1C1129253C5A4C007C7133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1C113A253C5A72007C7133 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6C1C113C253C5A72007C7133 /* PlacesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListViewController.swift; sourceTree = "<group>"; };
+		6C1C113D253C5A72007C7133 /* PlacesListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListRouter.swift; sourceTree = "<group>"; };
+		6C1C113E253C5A72007C7133 /* PlacesListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListPresenter.swift; sourceTree = "<group>"; };
+		6C1C113F253C5A72007C7133 /* PlacesListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListEntity.swift; sourceTree = "<group>"; };
+		6C1C1140253C5A72007C7133 /* PlacesListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListInteractor.swift; sourceTree = "<group>"; };
+		6C1C1142253C5A72007C7133 /* PlacesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesListViewController.xib; sourceTree = "<group>"; };
+		6C1C1144253C5A72007C7133 /* PlacesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListCell.swift; sourceTree = "<group>"; };
+		6C1C1145253C5A72007C7133 /* PlacesListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesListCell.xib; sourceTree = "<group>"; };
+		6C1C114E253C5A73007C7133 /* PlacesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesProtocol.swift; sourceTree = "<group>"; };
+		6C1C114F253C5A73007C7133 /* PlacesDetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailProtocol.swift; sourceTree = "<group>"; };
+		6C1C117A253C5DCA007C7133 /* PlacesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailViewController.swift; sourceTree = "<group>"; };
+		6C1C117B253C5DCA007C7133 /* PlacesDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailPresenter.swift; sourceTree = "<group>"; };
+		6C1C117D253C5DCA007C7133 /* PlacesDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailRouter.swift; sourceTree = "<group>"; };
+		6C1C117F253C5DCA007C7133 /* PlacesDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesDetailViewController.xib; sourceTree = "<group>"; };
+		6C1C1187253C5DDD007C7133 /* ProgressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,126 @@
 		6C1C111A253C5A4A007C7133 /* FoursquareAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6C1C111B253C5A4A007C7133 /* AppDelegate.swift */,
-				6C1C111D253C5A4A007C7133 /* SceneDelegate.swift */,
-				6C1C111F253C5A4A007C7133 /* ViewController.swift */,
-				6C1C1121253C5A4A007C7133 /* Main.storyboard */,
-				6C1C1124253C5A4C007C7133 /* Assets.xcassets */,
-				6C1C1126253C5A4C007C7133 /* LaunchScreen.storyboard */,
+				6C1C1176253C5B77007C7133 /* Application */,
+				6C1C116D253C5ADB007C7133 /* Network */,
+				6C1C113B253C5A72007C7133 /* PlacesModule */,
+				6C1C1179253C5DCA007C7133 /* PlacesDetailModule */,
+				6C1C114C253C5A73007C7133 /* Protocols */,
+				6C1C1186253C5DDD007C7133 /* UIUtils */,
+				6C1C118A253C5DF4007C7133 /* Resources */,
+				6C1C118B253C5E08007C7133 /* Storyboard */,
 				6C1C1129253C5A4C007C7133 /* Info.plist */,
 			);
 			path = FoursquareAPI;
+			sourceTree = "<group>";
+		};
+		6C1C113B253C5A72007C7133 /* PlacesModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C113C253C5A72007C7133 /* PlacesListViewController.swift */,
+				6C1C113D253C5A72007C7133 /* PlacesListRouter.swift */,
+				6C1C113E253C5A72007C7133 /* PlacesListPresenter.swift */,
+				6C1C113F253C5A72007C7133 /* PlacesListEntity.swift */,
+				6C1C1140253C5A72007C7133 /* PlacesListInteractor.swift */,
+				6C1C1141253C5A72007C7133 /* Views */,
+			);
+			path = PlacesModule;
+			sourceTree = "<group>";
+		};
+		6C1C1141253C5A72007C7133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C1142253C5A72007C7133 /* PlacesListViewController.xib */,
+				6C1C1143253C5A72007C7133 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C1C1143253C5A72007C7133 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C1144253C5A72007C7133 /* PlacesListCell.swift */,
+				6C1C1145253C5A72007C7133 /* PlacesListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6C1C114C253C5A73007C7133 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C114D253C5A73007C7133 /* Places */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C1C114D253C5A73007C7133 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C114E253C5A73007C7133 /* PlacesProtocol.swift */,
+				6C1C114F253C5A73007C7133 /* PlacesDetailProtocol.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		6C1C116D253C5ADB007C7133 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C113A253C5A72007C7133 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6C1C1176253C5B77007C7133 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C111B253C5A4A007C7133 /* AppDelegate.swift */,
+				6C1C111D253C5A4A007C7133 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6C1C1179253C5DCA007C7133 /* PlacesDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C117A253C5DCA007C7133 /* PlacesDetailViewController.swift */,
+				6C1C117B253C5DCA007C7133 /* PlacesDetailPresenter.swift */,
+				6C1C117D253C5DCA007C7133 /* PlacesDetailRouter.swift */,
+				6C1C117E253C5DCA007C7133 /* Views */,
+			);
+			path = PlacesDetailModule;
+			sourceTree = "<group>";
+		};
+		6C1C117E253C5DCA007C7133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C117F253C5DCA007C7133 /* PlacesDetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C1C1186253C5DDD007C7133 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C1187253C5DDD007C7133 /* ProgressManager.swift */,
+			);
+			path = UIUtils;
+			sourceTree = "<group>";
+		};
+		6C1C118A253C5DF4007C7133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C1124253C5A4C007C7133 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C1C118B253C5E08007C7133 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C1121253C5A4A007C7133 /* Main.storyboard */,
+				6C1C1126253C5A4C007C7133 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1C115F253C5A73007C7133 /* PlacesListViewController.xib in Resources */,
+				6C1C1184253C5DCA007C7133 /* PlacesDetailViewController.xib in Resources */,
 				6C1C1128253C5A4C007C7133 /* LaunchScreen.storyboard in Resources */,
 				6C1C1125253C5A4C007C7133 /* Assets.xcassets in Resources */,
+				6C1C1161253C5A73007C7133 /* PlacesListCell.xib in Resources */,
 				6C1C1123253C5A4A007C7133 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1C1120253C5A4A007C7133 /* ViewController.swift in Sources */,
+				6C1C1181253C5DCA007C7133 /* PlacesDetailPresenter.swift in Sources */,
+				6C1C115C253C5A73007C7133 /* PlacesListPresenter.swift in Sources */,
+				6C1C115B253C5A73007C7133 /* PlacesListRouter.swift in Sources */,
+				6C1C115A253C5A73007C7133 /* PlacesListViewController.swift in Sources */,
+				6C1C1160253C5A73007C7133 /* PlacesListCell.swift in Sources */,
+				6C1C1159253C5A73007C7133 /* Network.swift in Sources */,
+				6C1C115D253C5A73007C7133 /* PlacesListEntity.swift in Sources */,
+				6C1C1180253C5DCA007C7133 /* PlacesDetailViewController.swift in Sources */,
+				6C1C1183253C5DCA007C7133 /* PlacesDetailRouter.swift in Sources */,
+				6C1C1168253C5A73007C7133 /* PlacesDetailProtocol.swift in Sources */,
+				6C1C115E253C5A73007C7133 /* PlacesListInteractor.swift in Sources */,
+				6C1C1167253C5A73007C7133 /* PlacesProtocol.swift in Sources */,
 				6C1C111C253C5A4A007C7133 /* AppDelegate.swift in Sources */,
 				6C1C111E253C5A4A007C7133 /* SceneDelegate.swift in Sources */,
+				6C1C1188253C5DDD007C7133 /* ProgressManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
